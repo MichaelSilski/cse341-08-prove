@@ -1,0 +1,26 @@
+# professionalName: string
+# base64Image: image url
+# nameLink (firstName): string
+# nameLink (url): url
+# primartDescription: string
+# workDescription1: string
+# workDescription2: string
+# linkTitleText: string
+# linkedInLink (text): string
+# linkedInLink (url): url
+# githubLink (text): string
+# githubLink (url): url
+
+GET http://localhost:8080/professional
+
+{
+   "professionalName": "Michael Silski",
+   "base64Image": "https://byui.instructure.com/files/27658968/download?download_frd=1",
+   "nameLink": { "firstName": "Michael", "url": "https://byui.instructure.com/profile" },
+   "primaryDescription": "This is Super Metroid",
+   "workDescription1": "Check out my LinkedIn page!",
+   "workDescription2": "Check out my GitHub page too!",
+   "linkTitleText": "So cool!",
+   "linkedInLink": { "text": "LinkedIn", "link": "https://www.linkedin.com/in/michael-a-silski/" },
+   "githubLink": { "text": "GitHub", "link": "https://github.com/MichaelSilski" }
+}
